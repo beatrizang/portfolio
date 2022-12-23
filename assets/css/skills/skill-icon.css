@@ -1,0 +1,19 @@
+.skill__icon{
+    align-self: center;
+    color: var(--verde-oscuro);
+    font-size: 4rem;
+    justify-self: center;
+    padding-top: 1rem;
+}
+
+@media screen and (max-width:768px) {
+    .skill__icon{
+        padding-top: 4rem;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .skill__icon{
+        padding-top: 4rem;
+    }
+}

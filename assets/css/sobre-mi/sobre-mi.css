@@ -1,0 +1,13 @@
+.sobre-mi{
+    background: var(--negro);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 0 3rem;
+}
+
+@media screen and (max-width: 375px) {
+    .sobre-mi{
+        height: 110vh;
+    }
+}

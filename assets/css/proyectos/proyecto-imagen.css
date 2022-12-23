@@ -1,0 +1,17 @@
+.proyecto__imagen{
+    border: 3px solid var(--gris);
+    border-radius: 10px;
+    width: 40rem;
+}
+
+@media screen and (max-width:768px) {
+    .proyecto__imagen{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .proyecto__imagen{
+        width: 100%;
+    }
+}

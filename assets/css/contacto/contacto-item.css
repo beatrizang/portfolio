@@ -1,0 +1,8 @@
+.contacto__icono{
+    color: var(--verde-oscuro);
+    font-size: 2rem;
+}
+
+.contacto__icono:hover{
+    color: var(--verde-muy-oscuro);
+}

@@ -1,0 +1,14 @@
+.skills__contenido{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 6rem 3rem;
+}
+
+@media screen and (max-width:375px) {
+    .skills__contenido{
+        flex-direction: column;
+        justify-content: center;
+    }
+}

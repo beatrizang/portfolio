@@ -1,0 +1,11 @@
+.header{
+    align-items: center;
+    background: var(--negro-claro);
+    padding: 2rem;
+    position: fixed;
+    width: 100%;
+}
+
+@media screen and (max-width:375px) {
+    
+}

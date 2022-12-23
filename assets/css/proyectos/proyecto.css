@@ -1,0 +1,17 @@
+.proyecto{
+    align-items:flex-start;
+    display: flex;
+    margin: 4rem 0;
+}
+
+@media screen and (max-width:768px){
+    .proyecto{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:375px){
+    .proyecto{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,20 @@
+.proyecto__contenido{
+    justify-self:flex-end;
+    margin-left: 2rem;
+}
+
+@media screen and (max-width:768px) {
+    .proyecto__contenido{
+        margin-left: 0;
+        text-align: left;
+        padding-top: 2rem;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .proyecto__contenido{
+        margin-left: 0;
+        text-align: center;
+        padding-top: 2rem;
+    }
+}

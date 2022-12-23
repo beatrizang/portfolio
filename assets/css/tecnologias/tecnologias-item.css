@@ -1,0 +1,7 @@
+.tecnologias__item{
+    color: var(--verde-oscuro);
+    border: 1px solid var(--verde-oscuro);
+    border-radius: 7px;
+    margin-right: 0.5rem;
+    padding: 0.8rem;
+}

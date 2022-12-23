@@ -1,0 +1,9 @@
+.proyectos__botones{
+    display: flex;
+}
+
+@media screen and (max-width:375px) {
+    .proyectos__botones{
+        justify-content: center;
+    }
+}

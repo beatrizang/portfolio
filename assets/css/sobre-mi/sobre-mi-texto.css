@@ -1,0 +1,21 @@
+.sobre-mi__texto{
+    color: var(--gris);
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 2rem;
+    padding-bottom: 2.5rem;
+    width: 60%;
+}
+
+@media screen and (max-width:768px) {
+    .sobre-mi__texto{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .sobre-mi__texto{
+        text-align: center;
+        width: 95%;
+    }
+}

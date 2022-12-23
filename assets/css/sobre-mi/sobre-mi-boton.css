@@ -1,0 +1,23 @@
+.sobre-mi__boton{
+    background: var(--verde-oscuro);
+    border: none;
+    border: 1px solid var(--verde-oscuro);
+    border-radius: 12px;
+    color: var(--negro);
+    cursor: pointer;
+    margin-right: 2rem;
+    padding: 1rem;
+}
+
+.sobre-mi__boton:hover{
+    background: var(--negro);
+    color: var(--verde-oscuro);
+    transition: 0.3s;
+}
+
+@media screen and (max-width:375px) {
+    .sobre-mi__boton{
+        margin-right: 0.5rem;
+        padding: 0.8rem;
+    }
+}

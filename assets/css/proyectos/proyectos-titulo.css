@@ -1,0 +1,6 @@
+.proyectos__titulo{
+    color: var(--verde-oscuro);
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}

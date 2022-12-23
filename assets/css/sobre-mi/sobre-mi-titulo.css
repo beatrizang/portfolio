@@ -1,0 +1,13 @@
+.sobre-mi__titulo{
+    color: var(--verde-oscuro);
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+
+
+@media screen and (max-width:375px) {
+    .sobre-mi__titulo{
+        font-size: 2rem;
+        text-align: center;
+    }
+}
